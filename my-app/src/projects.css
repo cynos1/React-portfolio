@@ -1,0 +1,11 @@
+.project-section{
+    text-align: center;
+   
+}
+.link{
+    text-decoration: none;
+    color: darkcyan;
+}
+.link:hover{
+    color: chartreuse;
+}

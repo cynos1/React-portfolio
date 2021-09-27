@@ -1,0 +1,43 @@
+
+.profile-card{
+    background-color:lightcyan;
+     width:556px;
+     /* max-height: 1000px;
+     height: 556px; */
+     overflow: hidden;
+     margin:0 auto;
+ }
+ .header1{
+     width: 179px;
+     height: 390px;
+     padding: 90px 20px 30px 20px;
+     display:inline-block;
+     border-right: 2px dashed #eeeeee;
+     margin-top: 50px;
+     text-align: center;
+ }
+ .profile-bio{
+     width:375px;
+     height: 388px;
+     display: inline-block;
+     padding: 50px 20px 30px 20px;
+     text-align: center;
+     margin-top: 50px;
+ }
+ .social{
+     width: 218px;
+     float:right;
+     margin:0px auto;
+     text-align: center;
+     box-sizing: border-box;
+ }
+ .logo{
+     list-style: none;
+     margin: -5px 0px 0px 0px;
+     padding: 0px;
+     width: 25%;
+     text-align: center;
+     font-size: 50px;
+ 
+ }
+ 
