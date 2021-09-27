@@ -7,6 +7,20 @@
      overflow: hidden;
      margin:0 auto;
  }
+ @media only screen and (max-width: 600px) {
+    .profile-card{
+        width: 370px;
+    }
+  
+    
+  }
+  @media only screen and (min-width: 600px) {
+    .profile-card{
+        width: 370px;
+    }
+  
+    
+  }
  .header1{
      width: 179px;
      height: 390px;

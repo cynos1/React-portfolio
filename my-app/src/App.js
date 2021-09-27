@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <div className="slide" id="slide1">
         <div className="title">
-          <h1>Cynthia's Portfolio</h1>
-          <p>Introducing my work, come and explore</p>
+          <h1 className="heading">Cynthia's Portfolio</h1>
+          <p className="heading">Introducing my work, come and explore</p>
         </div>
       </div>
 
@@ -35,8 +35,9 @@ function App() {
             <h1>My Projects</h1>
             <Projects/>
           </div>
+          
       </div>
-
+      
       <div className="slide" id="slide5">
           <div className="title">
             <Contact/>

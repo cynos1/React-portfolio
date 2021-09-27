@@ -5,3 +5,15 @@
     text-align: center;
     margin: 0 auto;
 }
+@media only screen and (max-width: 600px) {
+    .skill-section{
+        width:350px;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    .skill-section{
+        width:465px;
+    }
+    
+}

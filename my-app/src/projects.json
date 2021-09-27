@@ -5,7 +5,7 @@
       "description":
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       "image":"https://cdn.pixabay.com/photo/2017/02/11/22/38/quiz-2058883_1280.png",
-      "link": "https://quizapp-gbfofwex2-cynos1.vercel.app"
+      "link": "https://quizapp-apcbfo4ne-cynos1.vercel.app"
     },
     {
       "title": "Food recipe Search",
@@ -13,7 +13,7 @@
       "description":
         "Responsive Food recipe mini App built using React hooks",
       "image":"https://cdn.pixabay.com/photo/2016/03/05/23/02/barbecue-1239434_1280.jpg",
-      "link": "https://foodapiproject-7gmhfz7vn-cynos1.vercel.app"
+      "link": "https://foodapiproject-nmhdx70sw-cynos1.vercel.app"
     },
   {
     "title": "Reviews App",

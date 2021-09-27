@@ -2,10 +2,16 @@
     text-align: center;
    
 }
-.link{
+.links{
     text-decoration: none;
     color: darkcyan;
 }
-.link:hover{
+.links:hover{
     color: chartreuse;
+}
+@media only screen and (max-width: 600px) {
+    .project-section .desc .links{
+        text-align: center;
+    }
+    
 }

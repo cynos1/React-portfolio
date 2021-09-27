@@ -24,7 +24,7 @@ p {
   transform-style: inherit;
 }
 .slide:before{
-  content: "";
+  /* content: ""; */
   position: absolute;
   top:0;
   bottom: 0;
@@ -32,9 +32,13 @@ p {
   right:0;
   box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
 }
+.heading{
+  color:white;
+}
 .title {
   width: 50%;
   padding: 5%;
+
   /* border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
@@ -66,39 +70,134 @@ p {
   margin-left: auto;
   margin-right: 0;
 }
+@media only screen and (max-width: 600px) {
 
+  .slide{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .img{
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    top: 56.4%;
+    left: 77%;
+  }
+  .title{
+    width: 100%;
+    
+  }
+  .project-section .desc .links{
+    text-align: center;
+  }
+  .logo .social{
+    margin: 0px auto; 
+  }
+}
+@media only screen and (min-width: 600px){
+  .slide{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .img{
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    top: 55%;
+    left: 59%;
+  }
+  .profile-card{
+    width: 550px;
+  }
+  .title{
+    width: 100%;
+    
+  }
+  .project-section .desc .links{
+    text-align: center;
+  }
+  .logo .social{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px){
+  
+  .img {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    width: 250px;
+    height: 300px;
+    transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(240,230,220, .7);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  }
+  .img:last-of-type {
+    transform: translateZ(.4px) scale(.6) translateX(-170%) translateY(115%) rotate(-5deg);
+  }
+  .slide:nth-child(2n) .title {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+  .slide:nth-child(2n+1) .title {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .title {
+    width: 50%;
+    padding: 5%;
+  
+    /* border-radius: 5px;
+    background: rgba(240,230,220, .7);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .7); */
+  }
+ 
+  
+  
+ 
+}
 .slide, .slide:before {
   background: 50% 50% / cover;  
 }
 
 #slide1:before {
-  /* background-image: url("https://lorempixel.com/640/480/abstract/4/"); */
+  background-image: url("https://cdn.pixabay.com/photo/2020/06/29/14/15/lightbulb-5352822_1280.jpg");
   transform: translateZ(-1px) scale(2);
-  background-color: khaki;
+ 
 }
-/* #slide1{
-  background-color: lightcyan;
-} */
+#slide1{
+  background-image: url("https://cdn.pixabay.com/photo/2020/06/29/14/15/lightbulb-5352822_1280.jpg");
+}
 
 #slide2 {
-  /* background-image: url("https://lorempixel.com/640/480/abstract/3/"); */
+  background-image: url("https://cdn.pixabay.com/photo/2021/08/24/15/38/sand-6570980_1280.jpg");
   z-index:2;
-  background-color: lavender;
+  
+  background-attachment: fixed;
 }
 #slide3{
-background-color: lightsalmon;
+  background-image: url("https://cdn.pixabay.com/photo/2014/04/08/23/42/texture-319748_1280.jpg");
+background-attachment: fixed;
 }
 #slide3:before {
-  /* background-image: url("https://lorempixel.com/640/480/abstract/5/"); */
+  background-image: url("https://cdn.pixabay.com/photo/2013/02/20/11/31/abstract-83802_1280.jpg");
   transform: translateZ(-1px) scale(2);
-  background-color: lemonchiffon;
+  
+  background-attachment: fixed;
 }
 
 #slide4 {
-  background-color: lightcoral;
   
+  background-attachment: fixed;
+  background-image: url("https://cdn.pixabay.com/photo/2017/07/25/11/44/crumpled-2537807_1280.jpg");
 }
 #slide5{
-  background-color: lightseagreen;
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/21/18/14/abstract-1846962_1280.jpg");
+  background-attachment: fixed;
+  
 }
 

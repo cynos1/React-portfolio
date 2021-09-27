@@ -10,13 +10,14 @@ function Projects() {
                 {proj.map((x, id)=> {
                     return(
                         <div key={id}>
-                            <a href={x.link} key={x.image} className="link">
+                            <a href={x.link} key={x.image} className="links">
                                 <h1>{x.title}</h1>
+                                
                                 <img alt={x.title} src={x.image} className="img2" width="400px"/>
                             </a>
                             
-                            <p>{x.subtitle}</p>
-                            <p>{x.description}</p><hr/><br/>
+                            {/* <p>{x.subtitle}</p> */}
+                            <p className="desc">{x.description}</p><hr/><br/>
                         </div>
                     )
                 })}
