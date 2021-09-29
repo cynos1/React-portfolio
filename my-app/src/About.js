@@ -16,8 +16,10 @@ function About() {
                 <p>I'm a recent graduate at Morgan State University with a Bachelor's degree in Electrical and Computer Engineering. 
                     My passion for Front-end web developement began during my sophomore year in college when I realized that I was 
                     more fascinated about the software part of my major compared to working with wires, resistors and circuits.
-                    My School didn't offer sufficient web developement classes for my major, so I started learning and practicing by myself.
-                    I am passionate about creating responsive and dynamic user experiences.
+                    My School didn't offer sufficient web developement classes for my major, so I started learning and practicing by myself. 
+                    Thereafter, I got my first research experience working as a front-end Developer in a team. 
+                    I have personal projects as well. Scroll down to see what I have made so far.
+                    
                 </p>
             </div>
             <ul className="social">
